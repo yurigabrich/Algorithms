@@ -10,23 +10,22 @@ Repositório dos algoritmos da disciplina de Algoritmo do primeiro semestre do m
 
 ### Estrutura de Dados Não-Linear
 
- - Árvores
- 
- >- Percurso Pré-Ordem
- >- Percurso Pós-Ordem
- >- Percurso In-Ordem
- >- Percurso Em Nível
- >- Árvore Binária de Busca Balanceada (AVL)
- >- *Filas de Prioridade*
- >>- Heap (mini-heap)
+- Árvores
+	- Percurso Pré-Ordem
+	- Percurso Pós-Ordem
+ 	- Percurso In-Ordem
+ 	- Percurso Em Nível
+ 	- Árvore Binária de Busca Balanceada (AVL)
+ 	- *Filas de Prioridade*
+ 		- Heap (mini-heap)
 
 ### Ordenação
 
 - Bolha
-> - Combosort
+	- Combosort
 
 - Inserção
-> - Shellsort
+	- Shellsort
 
 - Seleção
 - Mergesort
@@ -35,12 +34,12 @@ Repositório dos algoritmos da disciplina de Algoritmo do primeiro semestre do m
 ### Tabelas de Dispersão
 
 - Métodos:
->- da Divisão
->- da Dobra
->- da Multiplicação
->- da Análise de Dígitos
+	- da Divisão
+	- da Dobra
+	- da Multiplicação
+	- da Análise de Dígitos
 
 - Tratamento de Colisões:
->- Encadeamento Exterior
->- Encadeamento Interior
->- Endereçamento Aberto
+	- Encadeamento Exterior
+	- Encadeamento Interior
+	- Endereçamento Aberto
