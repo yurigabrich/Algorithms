@@ -11,6 +11,11 @@ Repositório dos algoritmos da disciplina de Algoritmo do primeiro semestre do m
 ### Estrutura de Dados Não-Linear
 
 - Árvores
+	- Alocação Encadeada de Nós
+		- Sequencial dos Filhos
+		- Encadeada dos Filhos
+		- Usual para Binárias
+	- Alocação Sequencial de Nós (para binárias / feita por níveis)
 	- Percurso Pré-Ordem
 	- Percurso Pós-Ordem
  	- Percurso In-Ordem
