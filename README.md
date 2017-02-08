@@ -16,10 +16,11 @@ Repositório dos algoritmos da disciplina de Algoritmo do primeiro semestre do m
 		- Encadeada dos Filhos
 		- Usual para Binárias
 	- Alocação Sequencial de Nós (para binárias / feita por níveis)
-	- Percurso Pré-Ordem
-	- Percurso Pós-Ordem
- 	- Percurso In-Ordem
- 	- Percurso Em Nível
+	- Percursos:
+		- Pré-Ordem
+		- Pós-Ordem
+ 		- In-Ordem
+ 		- Em Nível
  	- Árvore Binária de Busca Balanceada (AVL)
  	- *Filas de Prioridade*
  		- Heap (mini-heap)
@@ -28,10 +29,8 @@ Repositório dos algoritmos da disciplina de Algoritmo do primeiro semestre do m
 
 - Bolha
 	- Combosort
-
 - Inserção
 	- Shellsort
-
 - Seleção
 - Mergesort
 - Quicksort
