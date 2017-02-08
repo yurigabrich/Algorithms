@@ -11,6 +11,7 @@ Repositório dos algoritmos da disciplina de Algoritmo do primeiro semestre do m
 ### Estrutura de Dados Não-Linear
 
  - Árvores
+ 
  >- Percurso Pré-Ordem
  >- Percurso Pós-Ordem
  >- Percurso In-Ordem
