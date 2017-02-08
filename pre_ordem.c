@@ -5,3 +5,12 @@ void preordem (No∗ no) {
 		preordem(no−>dir);
 	}
 };
+
+procedimento PercursoPreOrdem(T: ^No)
+	se T ≠ NULO então
+	escrever (T^.Chave)
+	PercursoPreOrdem(T^.Esq)
+	PercursoPreOrdem(T^.Dir)
+
+procedimento PercursoPreOrdem(ref T: Arvore)
+	PercursoPreOrdem(T.Raiz)
