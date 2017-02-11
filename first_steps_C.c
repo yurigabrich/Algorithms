@@ -130,3 +130,28 @@ typedef struct {
 vehicle mycar;
 mycar.brand = "Ford";
 mycar.model = 2007;
+
+// 9. Function arguments are passed by value, which means they are copied in and out of
+// functions. But what if we copied pointers to values instead of the values themselves?
+// This will enable us to give functions control over variables and structures of the
+// parent functions, and not just a copy of them.
+
+// 10. Pointers to structures:
+/*
+Let's say we want to create a function which moves a point forward in both x and y
+directions, called move. Instead of sending two pointers, we can now send only one
+pointer to the function of the point structure:
+*/
+void move(point * p) {
+    (*p).x++;
+    (*p).y++;
+}
+/*
+However, if we wish to dereference a structure and access one of it's internal members,
+we have a shorthand syntax for that, because this operation is widely used in data
+structures. We can rewrite this function using the following syntax:
+*/
+void move(point * p) {
+    p->x++;
+    p->y++;
+}
