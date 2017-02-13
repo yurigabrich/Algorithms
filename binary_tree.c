@@ -1,18 +1,18 @@
-class No {
-	public:
+typedef struct {
+	/* Classe Nó que definie seu valor e seus filhos.*/
 	int valor; // conteúdo do nó
-	No∗ esq; // filho esquerdo
-	No∗ dir; // filho direito
-	No∗ pai; // opcional
-};
+	int ∗esq; // filho esquerdo
+	int ∗dir; // filho direito
+} No;
 
-class ArvoreBinaria {
-	public:
-	No∗ raiz;
-	int N; // número de elementos atualmente na pilha?!
+typedef struct {
+	/* Classe Árvore Binária que define toda a árvore
+	a partir da raiz e as funções elementares da mesma.*/
+	int ∗raiz = &No.valor;
+	
 	void constroi(){...}
 	
 	void destroi(){...}
 	
 	void imprime(){...}
-}
+} ArvoreBinaria;
