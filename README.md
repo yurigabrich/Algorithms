@@ -10,7 +10,7 @@ Repositório dos algoritmos da disciplina de Algoritmo do primeiro semestre do m
 
 ### Estrutura de Dados Não-Linear
 
-- Árvores	[![C](https://github.com/yurigabrich/Algorithms/blob/master/images/C.png?raw=true)](https://github.com/yurigabrich/Algorithms/blob/master/C_files/binary_tree.c)
+- Árvores	[![C](https://github.com/yurigabrich/Algorithms/blob/master/images/C.png?raw=true)](https://github.com/yurigabrich/Algorithms/blob/master/C_files/binary_tree.c#target="_blank")
 	- Alocação Encadeada de Nós
 		- Sequencial dos Filhos
 		- Encadeada dos Filhos	[![py](https://github.com/yurigabrich/Algorithms/blob/master/images/py.png?raw=true)](https://github.com/yurigabrich/Algorithms/blob/master/Py_files/chain_alloc_node_1.py)
