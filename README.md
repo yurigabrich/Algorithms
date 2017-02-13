@@ -47,3 +47,8 @@ Repositório dos algoritmos da disciplina de Algoritmo do primeiro semestre do m
 	- Encadeamento Exterior
 	- Encadeamento Interior
 	- Endereçamento Aberto
+
+---
+### Listas de Exercícios
+
+- [Lista Prática 1](https://github.com/yurigabrich/codingground/blob/master/New%20Project-20161127/main.c)
