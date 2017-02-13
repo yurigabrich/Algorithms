@@ -4,9 +4,9 @@ Repositório dos algoritmos da disciplina de Algoritmo do primeiro semestre do m
 
 ### Estrutura de Dados Linear
 
-- Lista
-- Pilha
-- Fila
+- Listas
+- Pilhas
+- Filas
 
 ### Estrutura de Dados Não-Linear
 
