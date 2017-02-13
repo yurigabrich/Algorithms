@@ -12,7 +12,7 @@ Repositório dos algoritmos da disciplina de Algoritmo do primeiro semestre do m
 
 - Árvores
 	- Alocação Encadeada de Nós
-		- Sequencial dos Filhos
+		- Sequencial dos Filhos ![py](https://github.com/yurigabrich/Algorithms/blob/master/images/py.png?raw=true)
 		- Encadeada dos Filhos
 		- Usual para Binárias
 	- Alocação Sequencial de Nós (para binárias / feita por níveis)
