@@ -8,8 +8,7 @@ typedef struct {
 typedef struct {
 	/* Classe Árvore Binária que define toda a árvore
 	a partir da raiz e as funções elementares da mesma.*/
-	int ∗raiz = &No.valor;
-	
+	No raiz; // Poderia ser assim? Não deveria estar dentro de constroi?!	
 	void constroi(){...}
 	
 	void destroi(){...}
