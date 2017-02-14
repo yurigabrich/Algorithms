@@ -28,6 +28,8 @@ typedef struct {
 		for (int i = 0; i < N; ++i) {
 			if (elementos[i].chave == chave) {
 				return i;
+			}
+		}
 		return -1;
 	}
 	// Busca ORDENADA
@@ -50,21 +52,21 @@ typedef struct {
 	}
 
 	void insere(char chave, char valor, int colocacao) {
-		/* Insere os elementos na lista...?! */
+		/* Insere o elemento na lista na posição dada por colocacao. */
+		N++;	// Aumenta a lista em 1 elemento antes de realocar os demais,
+			// senão o último elemento será perdido.
 		for (int i = N; i > colocacao; --i) {
 			elementos[i] = elementos[i-1];
 		
 		elementos[colocacao].chave = chave;
 		elementos[colocacao].valor = valor;
-		
-		N++;
 	}
 
 	void remove(int colocacao) {
-		/* Remove o elemento da lista ao subtituílo pelo elemento posterior.
+		/* Remove o elemento da lista ao subtituí-lo pelo elemento posterior.
 		Realoca toda a lista a partir do elemento removido. */
 		for (int i = colocacao; i < N-1; ++i) {
 			elementos[i] = elementos[i+1];
 		N--;
 	}
-} ListaSeq1;
+} ListaSeq;
